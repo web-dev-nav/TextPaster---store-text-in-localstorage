@@ -1,0 +1,309 @@
+<!--Navjot Singh-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TXT - PASTER</title>
+  <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add Font Awesome CSS link here -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="IMG/logo-b.png" alt="TXT - Paster Logo" width="150" height="30" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="share.html">Txt Paster App</a>
+          </li>
+          <!-- Add more navigation items as needed -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Main content -->
+  <div class="container-fluid py-5">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- FAQ Section -->
+        <div class="accordion" id="accordionExample">
+
+          <!-- FAQ Item 2 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                  <i class="fas fa-question-circle"></i> What does this app do?
+                </button>
+              </h2>
+            </div>
+            <div id="faqCollapseTwo" class="collapse show" aria-labelledby="faqHeadingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                The app allows users to enter a heading and associated text. This way, users can add important data and have
+                it later on. Some use cases are: storing login information, notes, etc.
+                When the "Save Text" button is clicked, the entered text is saved to the browser's local storage and retain their even 
+                after page refresh and never expired until you delete or clear cookies. Moreover, If the
+                heading already exists, the existing entry is updated; otherwise, a new entry is added.
+                <br>
+                Overall, the Text Storage App is a simple productivity tool that allows users to save, edit, and download
+                their text entries with headings, facilitating better organization and access to important information.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 1 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                  <i class="fas fa-home"></i> Home Page Layout
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseOne" class="collapse" aria-labelledby="faqHeadingOne"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                The page with a title, text input, and textarea for entering the heading and text. There are two buttons
+                for saving the text and refreshing the list of saved texts.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                  <i class="fas fa-file-download"></i> Downloading Text
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseThree" class="collapse" aria-labelledby="faqHeadingThree"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                The app provides a "Download" button, which, when clicked, generates a .txt file containing all saved texts
+                along with their headings. Users can download this file.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                  <i class="fas fa-list"></i> Displaying Saved Texts
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseFour" class="collapse" aria-labelledby="faqHeadingFour"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                The saved texts are displayed on the side of the page in a list format. Each saved text entry shows a
+                truncated version of the text with a "Show More" link to view the full text.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+                  <i class="fas fa-pager"></i> Pagination
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseFive" class="collapse" aria-labelledby="faqHeadingFive"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                If there are more than five saved text entries, pagination is added to display the saved texts in multiple
+                pages.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
+                  <i class="fas fa-edit"></i> Editing Saved Texts
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseSix" class="collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                For each saved text entry, an "Edit" button is provided. When clicked, the heading and text fields are
+                populated with the saved text, allowing users to edit the text. Users can click the "Save Text" button after
+                editing to update the existing entry.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 7 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingSeven">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseSeven">
+                  <i class="fas fa-trash"></i> Deleting Saved Texts
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseSeven" class="collapse" aria-labelledby="faqHeadingSeven"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                For each saved text entry, a "Delete" button is provided. When clicked, the corresponding entry is deleted
+                from the saved texts list.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 8 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingEight">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseEight" aria-expanded="false" aria-controls="faqCollapseEight">
+                  <i class="fas fa-paint-brush"></i> Styling
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseEight" class="collapse" aria-labelledby="faqHeadingEight"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                We used Bootstrap to style the app and ensure consistent design across all pages. We also added Font Awesome
+                icons to the buttons to enhance the user interface.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 9 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingNine">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseNine" aria-expanded="false" aria-controls="faqCollapseNine">
+                  <i class="fas fa-exclamation-triangle"></i> Error Handling
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseNine" class="collapse" aria-labelledby="faqHeadingNine"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                The app checks for empty text inputs before saving and displays appropriate error messages. If no saved
+                texts are found, a message is displayed indicating that there are no saved texts.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 10 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingTen">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseTen" aria-expanded="false" aria-controls="faqCollapseTen">
+                  <i class="fas fa-eye-slash"></i> Hide Pagination
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseTen" class="collapse" aria-labelledby="faqHeadingTen" data-bs-parent="#accordionExample">
+              <div class="card-body">
+                If there are no saved texts, the pagination is hidden to avoid unnecessary UI elements when there are no
+                saved entries.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 11 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeadingEleven">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapseEleven" aria-expanded="false" aria-controls="faqCollapseEleven">
+                  <i class="fas fa-paste"></i> Paste Time
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapseEleven" class="collapse" aria-labelledby="faqHeadingEleven"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                For each saved text entry, a specific timestamp is added to let users remember the date and time they posted
+                the text.
+              </div>
+            </div>
+          </div>
+
+
+          <!-- FAQ Item 12 -->
+          <div class="card mt-2">
+            <div class="card-header" id="faqHeading12">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faqCollapse12" aria-expanded="false" aria-controls="faqCollapse12">
+                  <i class="fas fa-mobile-alt"></i> Responsive in Nature
+                </button>
+              </h2>
+            </div>
+
+            <div id="faqCollapse12" class="collapse" aria-labelledby="faqHeading12"
+              data-bs-parent="#accordionExample">
+              <div class="card-body">
+                Both pages are capable to view on tablet and mobile device.
+              </div>
+            </div>
+          </div>
+
+          <!-- Add more FAQ items as needed -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+         
+
+          <!-- Add more FAQ items as needed -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add Bootstrap 5 JS scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
